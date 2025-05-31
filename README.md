@@ -27,9 +27,8 @@ my-project/
     ├── images/             # Image files (e.g., PNG, JPG, SVG)
     |
     ├── css/                    # CSS files
-    │   ├── style.css           # Main stylesheet
-    │   └── reset.css           # Optional: CSS reset
-    |
+    │   └── style.css           # Main stylesheet
+    │   
     └── fonts/              # Font files (e.g., TTF, OTF,WOFF)
 
 ```
