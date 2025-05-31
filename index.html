@@ -34,11 +34,11 @@
 							</ul>
 						</div>
 					</div>
-
 					<div class="navbar__btns">
 						<a href="#" class="navbar__actions-sign"><h5>Sign Up</h5></a>
 						<a href="#" class="navbar__actions-login"><h5>Log In</h5></a>
 					</div>
+					<div class="navbar__menu none"><img src="assets/img/Button.png" /></div>
 				</div>
 			</div>
 		</nav>
@@ -65,7 +65,7 @@
 							</p>
 						</div>
 						<div class="action__call">
-							<form action="">
+							<form>
 								<input type="text" placeholder="Enter your email" />
 								<button type="submit" class="action__call-btn"><h5>Submit</h5></button>
 							</form>
@@ -174,7 +174,7 @@
 							<h4>Organize your digital assets with a methodology here and there.</h4>
 							<a href="#"><h5>Learn more &rarr;</h5></a>
 						</div>
-						<div class="latest-blog__card">
+						<div class="latest-blog__card hide">
 							<figure>
 								<img
 									src="assets/img/6eeea35e958cdfdf9fce342bc91d9a72daad1170.jpg"
@@ -211,7 +211,7 @@
 							<h4>Organize your digital assets with a methodology here and there.</h4>
 							<a href="#"><h5>Learn more &rarr;</h5></a>
 						</div>
-						<div class="latest-blog__card">
+						<div class="latest-blog__card hide">
 							<figure>
 								<img
 									src="assets/img/11421d880dc2e5fa3eea6f99083701fe9b1bf712.jpg"
@@ -237,6 +237,9 @@
 							truly at all.
 						</h3>
 						<a href="#" class="cta__btn"><h5>Sign up</h5></a>
+						<div class="none">
+							<a href="#" class="cta__btn login"><h5>Log in</h5></a>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -254,7 +257,6 @@
 									class="footer__logo"
 							/></a>
 						</figure>
-
 						<p class="footer__text">
 							Generate outside the box thinking with the possibility to target the low.
 						</p>
@@ -263,62 +265,64 @@
 							<button type="submit">Submit</button>
 						</form>
 					</div>
-					<div class="footer__col">
-						<p class="footer__col-title">Why Choose Us?</p>
-						<ul class="foooter__items">
-							<li class="foooter__item">
-								<p><a href="#">Scale</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Solutions</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Our Competition</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Channels</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Events</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Watch the Demo</a></p>
-							</li>
-						</ul>
-					</div>
-					<div class="footer__col">
-						<p class="footer__col-title">Company</p>
-						<ul class="foooter__items">
-							<li class="foooter__item">
-								<p><a href="#">Leadership</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Careers</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Investor Relations</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Media Kit</a></p>
-							</li>
-						</ul>
-					</div>
-					<div class="footer__col">
-						<p class="footer__col-title">Resources</p>
-						<ul class="foooter__items">
-							<li class="foooter__item">
-								<p><a href="#">Community</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Events</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Help Center</a></p>
-							</li>
-							<li class="foooter__item">
-								<p><a href="#">Partners</a></p>
-							</li>
-						</ul>
+					<div class="footer__wrapper">
+						<div class="footer__col">
+							<p class="footer__col-title">Why Choose Us?</p>
+							<ul class="foooter__items">
+								<li class="foooter__item">
+									<p><a href="#">Scale</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Solutions</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Our Competition</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Channels</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Events</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Watch the Demo</a></p>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<p class="footer__col-title">Company</p>
+							<ul class="foooter__items">
+								<li class="foooter__item">
+									<p><a href="#">Leadership</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Careers</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Investor Relations</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Media Kit</a></p>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col last">
+							<p class="footer__col-title">Resources</p>
+							<ul class="foooter__items">
+								<li class="foooter__item">
+									<p><a href="#">Community</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Events</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Help Center</a></p>
+								</li>
+								<li class="foooter__item">
+									<p><a href="#">Partners</a></p>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
